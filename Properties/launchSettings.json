@@ -1,8 +1,0 @@
-{
-  "profiles": {
-    "imgrec": {
-      "commandName": "Project",
-      "commandLineArgs": "c:\\temp\\imgrec\\config.json c:\\temp\\imgrec\\table.png c:\\temp\\imgrec\\output.png"
-    }
-  }
-}
