@@ -34,5 +34,5 @@ Console.WriteLine($"Analyysin tulokset:\n" +
     $"{String.Join('\n', coinSamples)}\n" +
     $"Yhteisarvo: {coinSamples.Select(n => n.TotalValue).Sum():N2} euroa.\n" + 
     $"Suodatettu kuva on tallennettu {args[2]} -tiedostoon.\n" +
-    $"Jos suodatustulos ei näkyy oikealta, säädä \"ColorMatchTolerance\"-parametrin {args[0]} -tiedostossa ja yritä uudelleen.");
+    $"Jos suodatettu kuva ei vaikuta oikealta, säädä \"ColorMatchTolerance\"-parametrin {args[0]} -tiedostossa ja yritä uudelleen.");
  
